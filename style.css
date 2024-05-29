@@ -49,10 +49,7 @@ nav button {
     z-index: 10;
 }
 
-.box{
-    background-image: url(bg.jpg);
-    color: black;
-}
+
 
 .hero {
     font-family: 'Martel Sans', sans-serif;
