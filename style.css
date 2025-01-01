@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
 
 * {
@@ -52,7 +51,7 @@ nav button {
 
 
 
-.zero {
+.hero {
     font-family: 'Martel Sans', sans-serif;
     height: calc(100% - 100px);
     display: flex;
@@ -65,20 +64,20 @@ nav button {
     padding: 0 30px;
 }
 
-.zero> :nth-child(1) {
+.hero> :nth-child(1) {
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
     font-size: 48px;
     text-align: center;
 }
 
-.zero> :nth-child(2) {
+.hero> :nth-child(2) {
     font-weight: 400;
     font-size: 24px;
     text-align: center;
 }
 
-.zero> :nth-child(3) {
+.hero> :nth-child(3) {
     font-weight: 400;
     font-size: 20px;
     text-align: center;
@@ -116,7 +115,7 @@ nav button {
     color: white;
 }
 
-.zero-buttons {
+.hero-buttons {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -249,19 +248,19 @@ footer .questions {
         width: 305px;
     }
 
-    .zero> :nth-child(1) {
+    .hero> :nth-child(1) {
         font-size: 32px;
     }
 
-    .zero> :nth-child(2) {
+    .hero> :nth-child(2) {
         font-size: 18px;
     }
 
-    .zero> :nth-child(3) {
+    .hero> :nth-child(3) {
         font-size: 18px;
     }
 
-    .zero-buttons {
+    .hero-buttons {
         display: flex;
         flex-direction: column;
         align-items: center;
